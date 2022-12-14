@@ -60,3 +60,11 @@ GIT Rebase
 >> rebasing a branch updates one branch with another by applying the 
    commits of one branch on top of the commits of another branch
 
+interactive rebasing
+=======================
+lets say there is a feature branch
+>> and we have commited 3 or 4 times
+>> well at the end we need to add this to the master right
+>> and I don't want to show those 4 commits 
+>> i want to show only 1 commit 
+>> 
