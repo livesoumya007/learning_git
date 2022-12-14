@@ -51,12 +51,4 @@ before deleting the branch u need to checkout to some other branch
 
 how to merge two branches
 ==============================
-
-
-
-
-
-
-
-
-
+you can check merging 2 branches word doc for reference
