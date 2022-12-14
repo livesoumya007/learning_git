@@ -38,6 +38,7 @@ create a new branch and checkout
 show all the branches
 >> git branch
  
+ 
 
 rename a git branch
 it will rename the current branch that u r in 
