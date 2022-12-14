@@ -50,3 +50,13 @@ before deleting the branch u need to checkout to some other branch
 how to merge two branches
 ==============================
 you can check merging 2 branches word doc for reference
+
+We can abort the merge also by git merge –abort
+
+GIT Rebase
+=================
+>> Rebase is one of the powerful command in git
+>> rebasing is often used as an alternative to merging
+>> rebasing a branch updates one branch with another by applying the 
+   commits of one branch on top of the commits of another branch
+
