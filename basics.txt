@@ -1,0 +1,61 @@
+>> 
+Three main states in git
+>> modified -> locally changed 
+>> stage -> 
+>> commited
+
+git commands
+=====================
+>> $ git config --list --show-origin => it will show all the configs user level and system level
+
+here if u want to use some other mail. it will be in the project level
+>> git config --local user.email=dearsrp007@gmail.com
+
+again if you want to unset the project level
+>> git config --unset user.email
+
+to get all the commits
+>> git log
+
+to get the difference between the changes made in the file
+>>git diff => diff between working and staging
+>> git diff --staged => diff between staged and repo
+>> git diff head  => diff between working and repo
+
+to change a file name and u don't need to put again in the staging area like nothing will change 
+automatically it will rename 
+>> git mv nameA nameB
+
+to remove from staging area
+>> git restore --staged <fileName>
+
+create a new branch
+>> git branch <new_branch_name>
+
+create a new branch and checkout
+>> git checkout -b newBranch
+
+show all the branches
+>> git branch
+ 
+
+rename a git branch
+it will rename the current branch that u r in 
+>> git branch -m new_branch
+
+delete a branch
+before deleting the branch u need to checkout to some other branch
+>> git branch -d new_branch
+
+
+how to merge two branches
+==============================
+
+
+
+
+
+
+
+
+
