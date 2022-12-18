@@ -68,3 +68,11 @@ lets say there is a feature branch
 >> and I don't want to show those 4 commits 
 >> i want to show only 1 commit 
 >> 
+
+command to interactive rebasing
+>> git rebase -i master(coomit id first wala kuch git log se lena matlab yaha pe jo master likha ha kis k sath rebase karna ha wo wala) 
+then it will open an editor and there we can edit the commits like remove the unnecessary ones 
+and will add a final commit message there 
+
+modify or change the latest commit using amend command
+>> 
