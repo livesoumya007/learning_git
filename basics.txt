@@ -75,4 +75,24 @@ then it will open an editor and there we can edit the commits like remove the un
 and will add a final commit message there 
 
 modify or change the latest commit using amend command
->> 
+>> git commit --amend  (editor will open you can change the commit message)
+>> git commit --amend --no-edit
+
+picking a specific commit to another branch using cherry-pick
+>> git cherry-pick <hash_of_the_commit> 
+see it in rebase word doc
+
+it will basically move the branch 
+>> git reset <hash> 
+// has uss particular commit ka jaha pe lena ha branch ko
+so let say there is feature we are working on and later we found it that it is not required 
+so what we can do is reset. It will basically move the branch. 
+check the doc for more info
+
+we can also use the reset command to move the files from staging area to the working area
+>> git reset head --mixed
+
+you can also remove that from the working area as well
+>> git reset head --hard
+
+
